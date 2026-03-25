@@ -503,7 +503,7 @@ body {
     width: 60px;
     height: 60px;
     background-color: var(--accent-color);
-    color: var(--dark-color);
+    color: #ffffff;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -513,6 +513,21 @@ body {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     transition: transform var(--transition), box-shadow var(--transition);
     z-index: 999;
+}
+
+.language-switcher {
+    margin-left: 1rem;
+    padding: 6px;
+    border: 1px solid #ffffff;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.language-switcher option {
+    color: #000;
 }
 
 .whatsapp-btn:hover {
