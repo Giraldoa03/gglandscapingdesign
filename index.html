@@ -1,35 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="G&G Landscaping Design - Servicios profesionales de remoción de nieve, limpieza de hojas, corte de pasto y jardinería. Mantenimiento completo de espacios verdes con más de 8 años de experiencia.">
-    <meta name="keywords" content="remoción de nieve, corte de pasto, limpieza de hojas, jardinería, landscaping, mantenimiento de jardines, servicios de exteriores, diseño paisajístico">
+    <meta name="description"
+        content="G&G Landscaping Design - Servicios profesionales de remoción de nieve, limpieza de hojas, corte de pasto y jardinería. Mantenimiento completo de espacios verdes con más de 8 años de experiencia.">
+    <meta name="keywords"
+        content="remoción de nieve, corte de pasto, limpieza de hojas, jardinería, landscaping, mantenimiento de jardines, servicios de exteriores, diseño paisajístico">
     <meta name="author" content="G&G Landscaping Design">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <meta name="language" content="es">
+    <meta name="language" content="en">
     <meta name="theme-color" content="#2F5D2E">
-    
+
     <!-- Open Graph para Redes Sociales -->
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="G&G Landscaping Design - Servicios de Landscaping Profesionales">
-    <meta property="og:description" content="Servicios profesionales de remoción de nieve, corte de pasto, limpieza de hojas y jardinería. Transforma tus espacios verdes con nosotros.">
+    <meta property="og:description"
+        content="Servicios profesionales de remoción de nieve, corte de pasto, limpieza de hojas y jardinería. Transforma tus espacios verdes con nosotros.">
     <meta property="og:image" content="img/5BF7E476-F8B1-46BA-827F-03F9F1A3B695.PNG">
     <meta property="og:site_name" content="G&G Landscaping Design">
-    <meta property="og:locale" content="es_ES">
-    
+    <meta property="og:locale" content="en_US">
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="G&G Landscaping Design">
-    <meta name="twitter:description" content="Servicios profesionales de remoción de nieve, corte de pasto, limpieza de hojas y jardinería">
+    <meta name="twitter:description"
+        content="Servicios profesionales de remoción de nieve, corte de pasto, limpieza de hojas y jardinería">
     <meta name="twitter:image" content="img/5BF7E476-F8B1-46BA-827F-03F9F1A3B695.PNG">
-    
+
     <title>G&G Landscaping Design</title>
     <link rel="icon" type="image/png" href="img/Logos G&G.png">
     <link rel="canonical" href="#">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
     {
@@ -58,6 +63,7 @@
     }
     </script>
 </head>
+
 <body>
     <!-- Navigation -->
     <nav class="navbar">
@@ -71,178 +77,97 @@
                 <span></span>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#services" class="nav-link">Servicios</a></li>
-                <li><a href="#work" class="nav-link">Our Work</a></li>
-                <li><a href="#gallery" class="nav-link">Galería</a></li>
-                <li><a href="#contact" class="nav-link">Contact Us</a></li>
+                <li><a href="index.html" class="nav-link" data-i18n="nav.home">Home</a></li>
+                <li><a href="services.html" class="nav-link" data-i18n="nav.services">Servicios</a></li>
+                <li><a href="work.html" class="nav-link" data-i18n="nav.work">Our Work</a></li>
+                <li><a href="gallery.html" class="nav-link" data-i18n="nav.gallery">Galería</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact Us</a></li>
             </ul>
+            <select id="languageSwitcher" class="language-switcher" aria-label="Seleccionar idioma">
+                <option value="es">ES</option>
+                <option value="en">EN</option>
+            </select>
         </div>
     </nav>
 
     <!-- Home Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>G&G Landscaping Design</h1>
-            <p>Mantenimiento profesional de espacios verdes y remoción de nieve</p>
-            <a href="#services" class="cta-button">Descubre Nuestros Servicios</a>
+            <h1 data-i18n="home.title">G&G Landscaping Design</h1>
+            <p data-i18n="home.subtitle">Professional green space maintenance and snow removal</p>
+            <a href="services.html" class="cta-button" data-i18n="home.cta">Discover Our Services</a>
         </div>
         <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="services" style="background-color: #f9f9f9;">
+        <div class="container">
+            <h2 data-i18n="about.title">About Us</h2>
+            <p data-i18n="about.text">At G&G Landscaping Design we focus on creating and maintaining beautiful, functional green spaces. We have years of experience in snow removal, leaf cleanup, lawn mowing, and gardening for residential and commercial clients.</p>
+        </div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
-            <h2>Nuestros Servicios</h2>
+            <h2 data-i18n="services.title">Our Services</h2>
+            <p data-i18n="services.description">We provide high-quality care across 4 specialized services:</p>
             <div class="services-grid">
                 <div class="service-card">
                     <i class="fas fa-snowflake"></i>
-                    <h3>Remoción de Nieve</h3>
-                    <p>Servicio profesional de remoción de nieve para mantener tus espacios seguros y accesibles durante el invierno.</p>
+                    <h3 data-i18n="services.snow">Snow Removal</h3>
+                    <p data-i18n="services.snowText">Professional snow removal to keep your driveways and walkways safe in winter.</p>
                 </div>
                 <div class="service-card">
                     <i class="fas fa-leaf"></i>
-                    <h3>Limpieza de Hojas</h3>
-                    <p>Limpieza completa de hojas y mantenimiento de áreas verdes para preservar la belleza de tu propiedad.</p>
+                    <h3 data-i18n="services.leaf">Leaf Cleanup</h3>
+                    <p data-i18n="services.leafText">Complete leaf removal and clean-up to preserve landscape beauty and health.</p>
                 </div>
                 <div class="service-card">
                     <i class="fas fa-cut"></i>
-                    <h3>Corte de Pasto</h3>
-                    <p>Corte profesional y mantenimiento regular del pasto para un jardín siempre impecable y saludable.</p>
+                    <h3 data-i18n="services.lawn">Lawn Mowing</h3>
+                    <p data-i18n="services.lawnText">Professional mowing and maintenance to keep your lawn consistently perfect.</p>
                 </div>
                 <div class="service-card">
                     <i class="fas fa-seedling"></i>
-                    <h3>Jardinería</h3>
-                    <p>Diseño e instalación de jardines hermosos con plantas de calidad y técnicas profesionales de paisajismo.</p>
+                    <h3 data-i18n="services.gardening">Gardening</h3>
+                    <p data-i18n="services.gardeningText">Design and installation of beautiful gardens with ongoing care.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Our Work Section -->
+    <!-- Our Work Preview Section -->
     <section id="work" class="our-work">
         <div class="container">
-            <h2>Nuestro Trabajo</h2>
+            <h2 data-i18n="ourwork.title">Our Work</h2>
+            <p data-i18n="ourwork.subtitle">A quick look at some featured projects. Click View More to access the full gallery.</p>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Proyecto+1" alt="Proyecto de Landscaping">
+                    <img src="img/816ea134-a359-4dc9-9f94-5c7299437ef4.webp" alt="Jardín Moderno">
                     <div class="gallery-overlay">
                         <h3>Jardín Moderno</h3>
                         <p>Diseño contemporáneo con plantas aromáticas</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Proyecto+2" alt="Proyecto de Landscaping">
+                    <img src="img/A9893929-2E3D-4491-8FD2-F411DC21E71E_4_5005_c.webp" alt="Terraza Tropical">
                     <div class="gallery-overlay">
                         <h3>Terraza Tropical</h3>
                         <p>Área exterior con vegetación exótica</p>
                     </div>
                 </div>
                 <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Proyecto+3" alt="Proyecto de Landscaping">
+                    <img src="img/fdcf7eef-9520-4397-839a-1ddfb112f37e.webp" alt="Patio Familiar">
                     <div class="gallery-overlay">
                         <h3>Patio Familiar</h3>
                         <p>Espacio verde para toda la familia</p>
                     </div>
                 </div>
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Proyecto+4" alt="Proyecto de Landscaping">
-                    <div class="gallery-overlay">
-                        <h3>Riego Automatizado</h3>
-                        <p>Sistema completo de riego inteligente</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Proyecto+5" alt="Proyecto de Landscaping">
-                    <div class="gallery-overlay">
-                        <h3>Iluminación Premium</h3>
-                        <p>Jardín iluminado para la noche</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Proyecto+6" alt="Proyecto de Landscaping">
-                    <div class="gallery-overlay">
-                        <h3>Espacio Recreativo</h3>
-                        <p>Área verde de esparcimiento</p>
-                    </div>
-                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
-        <div class="container">
-            <h2>Galería de Proyectos</h2>
-            <p class="gallery-subtitle">Fotos y videos de nuestros trabajos en remoción de nieve, corte de pasto, limpieza de hojas y jardinería.</p>
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Foto+1" alt="Proyecto de jardinería">
-                    <div class="gallery-overlay">
-                        <h3>Jardinería residual</h3>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Foto+2" alt="Proyecto de corte de pasto">
-                    <div class="gallery-overlay">
-                        <h3>Corte de pasto</h3>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Foto+3" alt="Proyecto de limpieza de hojas">
-                    <div class="gallery-overlay">
-                        <h3>Limpieza de hojas</h3>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=Foto+4" alt="Remoción de nieve">
-                    <div class="gallery-overlay">
-                        <h3>Remoción de nieve</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-videos">
-                <h3>Videos Destacados</h3>
-                <div class="video-grid">
-                    <div class="video-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Tkq7vHSMPD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="video-item">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sQhM7TD-mMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contáctanos</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <h3>Ubicación</h3>
-                        <p>Hamilton, Ontario</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <h3>Teléfono</h3>
-                        <p>+1 (365) 833-3580</p>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email</h3>
-                        <p>info@gglandscaping.com</p>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Tu Nombre" required>
-                    <input type="email" placeholder="Tu Email" required>
-                    <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
-                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
-                </form>
+            <div style="text-align:center; margin-top: 1.5rem;">
+                <a href="work.html" class="cta-button" data-i18n="ourwork.more">Ver más en Our Work</a>
             </div>
         </div>
     </section>
@@ -252,46 +177,44 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h3>G&G Landscaping Design</h3>
-                <p>Servicios profesionales de mantenimiento de jardines desde 2015</p>
+                <p>Professional landscape maintenance services since 2019</p>
             </div>
             <div class="footer-section">
-                <h3>Enlaces Rápidos</h3>
+                <h3 data-i18n="footer.quickLinks">Enlaces Rápidos</h3>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Servicios</a></li>
-                    <li><a href="#work">Our Work</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="services.html" data-i18n="nav.services">Servicios</a></li>
+                    <li><a href="work.html" data-i18n="nav.work">Our Work</a></li>
+                    <li><a href="contact.html" data-i18n="nav.contact">Contact Us</a></li>
                 </ul>
             </div>
             <div class="footer-section social-section">
-                <h3>Síguenos</h3>
+                <h3 data-i18n="footer.followUs">Follow Us</h3>
                 <div class="social-icons">
-                    <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                    <a href="https://www.facebook.com/people/GG-Landscape-Design/61575671556038/?ref=PROFILE_EDIT_xav_ig_profile_page_web" target="_blank" title="Facebook">
                         <i class="fab fa-facebook"></i>
                     </a>
-                    <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                    <a href="https://www.instagram.com/gglandscapingdesign/" target="_blank" title="Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="https://www.twitter.com" target="_blank" title="Twitter">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">
-                        <i class="fab fa-linkedin"></i>
+                    <a href="https://www.tiktok.com/@gglandscapingdesign" target="_blank" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
                     </a>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 G&G Landscaping Design. Todos los derechos reservados.</p>
+            <p data-i18n="footer.copy">&copy; 2026 G&G Landscaping Design. All rights reserved.</p>
         </div>
     </footer>
 
     <!-- WhatsApp Button -->
-    <a href="https://wa.me/13658333580?text=Hola,%20quiero%20más%20información%20sobre%20vuestros%20servicios" 
-       class="whatsapp-btn" target="_blank" title="Contáctanos por WhatsApp">
+    <a href="https://wa.me/13658333580?text=Hi,%20I%20want%20more%20information%20about%20your%20services"
+        class="whatsapp-btn" target="_blank" title="Contact us on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
     <script src="script.js"></script>
 </body>
+
 </html>
