@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - G&G Landscaping Design</title>
+    <link rel="icon" type="image/png" href="img/5BF7E476-F8B1-46BA-827F-03F9F1A3B695.PNG">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><img src="img/5BF7E476-F8B1-46BA-827F-03F9F1A3B695.PNG" alt="G&G Logo" class="logo-img"></div>
+            <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link" data-i18n="nav.home">Home</a></li>
+                <li><a href="services.html" class="nav-link" data-i18n="nav.services">Services</a></li>
+                <li><a href="work.html" class="nav-link" data-i18n="nav.work">Our Work</a></li>
+                <li><a href="gallery.html" class="nav-link" data-i18n="nav.gallery">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact Us</a></li>
+            </ul>
+            <select id="languageSwitcher" class="language-switcher" aria-label="Seleccionar idioma">
+                <option value="es">ES</option>
+                <option value="en">EN</option>
+            </select>
+        </div>
+    </nav>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 data-i18n="contact.title">Contáctanos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item"><i class="fas fa-map-marker-alt"></i><h3 data-i18n="contact.locationLabel">Location</h3><p data-i18n="contact.locationValue">Hamilton, Ontario</p></div>
+                    <div class="info-item"><i class="fas fa-phone"></i><h3 data-i18n="contact.phoneLabel">Phone</h3><p data-i18n="contact.phoneValue">+1 (365) 833-3580</p></div>
+                    <div class="info-item"><i class="fas fa-envelope"></i><h3 data-i18n="contact.emailLabel">Email</h3><p data-i18n="contact.emailValue">info@gglandscaping.com</p></div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" data-i18n="contact.namePlaceholder" required>
+                    <input type="email" placeholder="Your Email" data-i18n="contact.emailPlaceholder" required>
+                    <textarea placeholder="Your Message" data-i18n="contact.messagePlaceholder" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn" data-i18n="contact.submitButton">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>G&G Landscaping Design</h3>
+                <p>Professional landscape maintenance services since 2019</p>
+            </div>
+            <div class="footer-section">
+                <h3 data-i18n="footer.quickLinks">Enlaces Rápidos</h3>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="work.html">Our Work</a></li>
+                    <li><a href="gallery.html">Galería</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social-section">
+                <h3 data-i18n="footer.followUs">Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/GG-Landscape-Design/61575671556038/?ref=PROFILE_EDIT_xav_ig_profile_page_web" target="_blank" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gglandscapingdesign/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@gglandscapingdesign" target="_blank" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer.copy">&copy; 2026 G&G Landscaping Design. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <a href="https://wa.me/1234567890?text=Hola,%20quiero%20más%20información" class="whatsapp-btn" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <script src="script.js"></script>
+</body>
+</html>
